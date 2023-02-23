@@ -76,7 +76,10 @@ def Q_two(df):
     return new_df
 
 
-def plot_q2(df):
+def plot_q2(new_df):
+    '''
+    plot for q2
+    '''
     ax = sns.scatterplot(data=new_df)
     plt.title('Lesson Vs Cohort?')
     plt.ylabel('Log Count')
